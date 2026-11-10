@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPORT EXPLORE</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f2f2f2;text-align:center}
+header{background:#0b3d91;color:white;padding:30px 15px}
+header h1{margin:0;font-size:32px}
+header p{margin:5px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:15px}
+.card{background:white;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.card img{width:100%;height:150px;object-fit:cover}
+.card h3{margin:10px 0 5px}
+.card p{font-size:13px;padding:0 10px 15px;color:#555}
+</style>
+</head>
+<body>
+<header>
+<h1>SPORT EXPLORE</h1>
+<p>Jelajahi Dunia Olahraga</p>
+<p>Sepak Bola • Basket • Badminton • Renang</p>
+</header>
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=600"><h3>Sepak Bola</h3><p>Olahraga paling populer di dunia.</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600"><h3>Basket</h3><p>Cepat, seru dan penuh strategi.</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=600"><h3>Badminton</h3><p>Olahraga kebanggaan Indonesia.</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600"><h3>Renang</h3><p>Melatih seluruh tubuh dan pernapasan.</p></div>
+</div>
+<p style="padding-bottom:20px">Dibuat oleh Vera197 - Sport Explore</p>
+</body>
+</html>
